@@ -13,7 +13,7 @@ Este é um projeto de chatbot que utiliza a **API da OpenAI** para responder per
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/lucasskt18/my-chatbot-app.git
 cd my-chatbot-app
 ```
 
@@ -85,11 +85,3 @@ npm start
 - Webpack
 - Express
 - OpenAI API
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## ✨ Autor
-
-- [Seu Nome](https://github.com/seu-usuario)
