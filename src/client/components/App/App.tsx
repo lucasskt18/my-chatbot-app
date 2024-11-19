@@ -7,7 +7,7 @@ import "./App.css";
 const App = () => (
   <div className="app-container">
     <SearchHistory />
-    <div style={{ flex: 1 }}>
+    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Chat />
       <OptionsBar />
     </div>

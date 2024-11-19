@@ -1,3 +1,4 @@
+// src/client/components/Chat/Chat.tsx
 import React, { useState } from "react";
 import './Chat.css';
 
