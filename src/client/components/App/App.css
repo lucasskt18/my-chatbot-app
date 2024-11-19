@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* Importando a fonte Roboto */
+
+.app-container {
+    background-color: #000; /* Fundo preto */
+    min-height: 100vh; /* Para garantir que o fundo cubra toda a altura da tela */
+    display: flex;
+    flex-direction: row; /* Mantendo o layout em linha */
+    align-items: flex-start; /* Alinhando ao topo */
+    padding: 20px; /* Adicionando padding */
+}
+
+.chat-box {
+    background-color: rgba(255, 255, 255, 0.95); /* Fundo branco suave para a caixa de chat */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 100%; /* Largura total */
+    max-width: 600px; /* Largura máxima */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    overflow-y: auto; /* Permitir rolagem vertical */
+    max-height: 400px; /* Altura máxima da caixa de chat */
+}
+
+.input-area {
+    display: flex; /* Usando flexbox para o campo de entrada e botão */
+    margin-top: 20px; /* Espaçamento acima da área de entrada */
+}
+
+.input-field {
+    flex: 1; /* O campo de entrada ocupa o espaço restante */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.send-button {
+    background-color: #2980b9; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro */
+    margin-left: 10px; /* Espaçamento à esquerda do botão */
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* Aplicando a nova fonte ao título */
+    font-size: 2rem; /* Reduzindo o tamanho da fonte */
+    color: rgba(255, 255, 255, 0.85); /* Suavizando a cor do texto para um branco menos intenso */
+}
+
+/* Estilo para o histórico de pesquisa */
+.search-history {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 300px; /* Largura máxima */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    margin-right: 20px; /* Espaçamento à direita */
+}
+
+.search-history h2 {
+    font-family: 'Inter', sans-serif; /* Fonte do título */
+    font-size: 1.5rem; /* Tamanho do título */
+    color: #2c3e50; /* Cor do texto */
+}
+
+.search-history ul {
+    list-style-type: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover padding */
+}
+
+.search-history li {
+    padding: 5px 0; /* Espaçamento entre os itens */
+    border-bottom: 1px solid #ccc; /* Linha separadora */
+    color: #34495e; /* Cor do texto */
+}

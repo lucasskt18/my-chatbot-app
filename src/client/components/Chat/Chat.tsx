@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Chat.css';
 
 const Chat: React.FC = () => {
   const [messages, setMessages] = useState<{ user: string; bot: string }[]>([]);
@@ -24,23 +25,21 @@ const Chat: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="chat-container">
       {messages.map((msg, index) => (
-        <div key={index}>
-          <p>
-            <strong>Usuário:</strong> {msg.user}
-          </p>
-          <p>
-            <strong>Chatbot:</strong> {msg.bot}
-          </p>
+        <div key={index} className="message">
+          <p className="user-message">Usuário: {msg.user}</p>
+          <p className="bot-message">Chatbot: {msg.bot}</p>
         </div>
       ))}
-      <input
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        placeholder="Digite sua mensagem..."
-      />
-      <button onClick={sendMessage}>Enviar</button>
+      <div className="input-container">
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          placeholder="Digite sua mensagem..."
+        />
+        <button onClick={sendMessage}>Enviar</button>
+      </div>
     </div>
   );
 };

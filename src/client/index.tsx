@@ -1,12 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Chat from "./components/Chat";
+import ReactDOM from "react-dom/client";
+import App from "./components/App/App";
 
-const App = () => (
-  <div>
-    <h1>Chatbot com OpenAI</h1>
-    <Chat />
-  </div>
+// Criando a raiz do React
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+
+// Renderizando o componente App
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
-
-ReactDOM.render(<App />, document.getElementById("root"));
