@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* Importando a fonte Roboto */
 
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #1a1a1a; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+  }
+  
+  .app-container {
+    min-height: 100vh; /* Garante que a altura mínima ocupe toda a tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 .app-container {
     background-color: #121212; /* Fundo escuro */
     min-height: 100vh; /* Para garantir que o fundo cubra toda a altura da tela */
