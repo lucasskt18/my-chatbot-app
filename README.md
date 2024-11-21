@@ -63,19 +63,6 @@ npm start
   rm -rf node_modules
   npm install
   ```
-- **Verificar Problemas de Tipagem no TypeScript**:
-  ```bash
-  npx tsc --noEmit
-  ```
-
-### 8. Problemas Comuns
-
-- **Erro: Porta em Uso (EADDRINUSE)**:
-  Se você receber o erro `EADDRINUSE`, finalize o processo que está usando a porta:
-  ```bash
-  lsof -i :3000
-  kill -9 <PID> # Substitua <PID> pelo número do processo
-  ```
 
 ## 🛠 Tecnologias Utilizadas
 
