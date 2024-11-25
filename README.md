@@ -71,4 +71,3 @@ npm start
 - TypeScript
 - Webpack
 - Express
-- OpenAI API
