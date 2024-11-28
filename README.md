@@ -1,4 +1,4 @@
-# 🗨️ Chatbot com Integração de IA
+# Chatbot com Integração de IA
 
 Este é um projeto de chatbot que utiliza a **API da OpenAI** para responder perguntas de forma inteligente. O projeto é desenvolvido com **Node.js**, **React**, **TypeScript**, e utiliza **Webpack** para a construção do frontend.
 
