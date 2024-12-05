@@ -4,9 +4,9 @@
   width: 100%;
   max-width: 600px;
   background-color: #1e1e1e;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
   margin-bottom: 20px;
 }
 
@@ -16,19 +16,30 @@
 
 .user-message {
   color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .bot-message {
   color: #4caf50;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .input-container {
   display: flex;
-  margin-top: 20px;
-  background-color: #1e1e1e;
-  border-radius: 5px;
-  padding: 10px;
-  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-container>* {
+  margin-right: 8px;
+}
+
+.input-container>*:last-child {
+  margin-right: 0;
 }
 
 input {

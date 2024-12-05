@@ -1,0 +1,11 @@
+.file-attachment-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.attachment-icon {
+    color: #fff;
+    font-size: 1.5rem;
+}
