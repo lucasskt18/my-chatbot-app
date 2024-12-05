@@ -1,5 +1,7 @@
 // src/client/components/Chat/Chat.tsx
 import React, { useState } from "react";
+import FileAttachmentButton from "../FileAttachmentButton/FileAttachmentButton";
+import WebSearchButton from "../WebSearchButton/WebSearchButton";
 import './Chat.css';
 
 const Chat: React.FC = () => {
@@ -34,6 +36,8 @@ const Chat: React.FC = () => {
         </div>
       ))}
       <div className="input-container">
+        <FileAttachmentButton />
+        <WebSearchButton />
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
