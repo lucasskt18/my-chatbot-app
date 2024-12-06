@@ -56,13 +56,7 @@ npm run build
 npm start
 ```
 
-### 7. Comandos Úteis
-
-- **Limpar a pasta `dist`** (arquivos compilados):
-  ```
-  rm -rf dist
-  ```
-- **Reinstalar Dependências** (caso necessário):
+### 7. Reinstalar Dependências (caso necessário)
   ```
   rm -rf node_modules
   npm install
